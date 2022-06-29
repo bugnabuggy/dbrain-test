@@ -1,0 +1,23 @@
+$spacing: 10px;
+
+$fixedWidth: 1100px;
+
+$primaryColor: orange;
+$secondaryColor: rgb(57, 125, 214);
+
+$darkColor: #0c0917;
+$darkTextColor: white;
+
+$textColor: #202010;
+$backgroundColor: white;
+
+$grayColor: lightgray;
+$inactiveColor: gray;
+
+$buttonsFontSize: 16px;
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

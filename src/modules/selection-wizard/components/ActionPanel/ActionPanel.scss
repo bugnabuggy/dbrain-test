@@ -1,0 +1,13 @@
+@import 'styles/design-system.scss';
+
+
+.dbr-action-panel {
+    margin: 2 * $spacing;
+}
+
+.dbr-action-panel h3 {
+  font-size: 24px;
+  font-weight: 600;  
+  margin-bottom: 2 * $spacing;
+}
+

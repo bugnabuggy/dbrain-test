@@ -1,0 +1,29 @@
+@import 'styles/design-system.scss';
+
+.dbr-button {
+    padding: $spacing 2 * $spacing;
+    outline: none;
+    border-radius: 4 * $spacing;
+    border: none;
+    font-size: $buttonsFontSize;
+    margin: $spacing;
+    background-color: $backgroundColor;
+    cursor: pointer;
+
+    &.contained {
+        background-color: $inactiveColor;
+        color: $darkTextColor;
+        &:hover{
+            background-color: $secondaryColor;
+        }
+    }
+
+
+    &.outlined {
+        border: 3px solid $inactiveColor;
+        color: $inactiveColor;
+        &:hover{
+                    border-color: $secondaryColor;
+                }
+    }
+}

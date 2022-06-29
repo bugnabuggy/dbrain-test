@@ -1,0 +1,35 @@
+@import 'styles/design-system.scss';
+
+.dbr-bounding-area {
+    position: absolute;
+    border: 3px solid orangered;
+    background: rgba(245, 147, 111, 0.4);
+    
+    @include flex-center;
+
+}
+
+@mixin dbr-bounding-area-internal {
+    @include flex-center;
+
+    border-radius: 4 * $spacing;
+    width: 3* $spacing;
+    height: 3 * $spacing;
+    
+}
+
+.dbr-bounding-area-del {
+    @include dbr-bounding-area-internal;
+    font-size: 28px;
+    outline: none;
+    background-color: orange;
+    border: 1px solid orangered;
+    color: white;
+}
+
+.dbr-bounding-area-lable {
+    @include dbr-bounding-area-internal;
+    background-color: rgb(97, 66, 46);
+    color:orange;
+    font-size: 18px;
+}

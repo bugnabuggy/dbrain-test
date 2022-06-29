@@ -1,0 +1,17 @@
+@import 'styles/design-system.scss';
+
+.dbr-selection-area {
+    margin: 2 * $spacing;
+    width: 75%;
+    max-height: 600px;
+
+    position: relative;
+    user-select: none;
+}
+
+.dbr-selection-image {
+    max-width: 100%;
+    max-height: 100%;
+    
+    
+}

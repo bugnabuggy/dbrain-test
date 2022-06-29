@@ -1,0 +1,12 @@
+@import 'styles/design-system.scss';
+
+.dbr-actions-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.dbr-actions-skip {
+    cursor: pointer;
+    color: $inactiveColor;
+}
